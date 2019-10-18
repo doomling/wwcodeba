@@ -1,0 +1,30 @@
+{
+  "actions": [{
+      "name": "Ciudad de San Luis",
+      "user": {
+        "id": 1,
+        "name": "Cande Gomez",
+        "level": 7,
+        "isActual": true
+      }
+    },
+    {
+      "name": "Merlo",
+      "user": {
+        "id": 2,
+        "name": "Cande Gomez",
+        "level": 9,
+        "isActual": false
+      }
+    },
+    {
+      "name": "La Pedrera",
+      "user": {
+        "id": 3,
+        "name": "Sol Perez",
+        "level": 2,
+        "isActual": false
+      }
+    }
+  ]
+}

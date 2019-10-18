@@ -1,0 +1,21 @@
+@import "./../../styles/variables.scss";
+
+.navigation {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    font-family: $primaryFont;
+    font-size: 2em;
+    color: #fff;
+  }
+}

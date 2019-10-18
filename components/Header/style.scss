@@ -1,0 +1,30 @@
+@import "./../../styles/variables.scss";
+
+.header {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  height: 250px;
+
+  .logo {
+    width: 350px;
+  }
+
+  .list {
+    display: flex;
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+      margin: 10px;
+      font-family: $primaryFont;
+      font-size: 2em;
+      color: #fff;
+      box-sizing: border-box;
+    }
+  }
+}

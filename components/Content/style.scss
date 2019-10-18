@@ -1,0 +1,13 @@
+@import "./../../styles/variables.scss";
+
+.contentContainer {
+  box-sizing: border-box;
+  background-color: #1d1d1d;
+  display: flex;
+}
+
+.contentBox {
+  padding: 30px;
+  padding-left: 0;
+  box-sizing: border-box;
+}

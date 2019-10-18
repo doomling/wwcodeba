@@ -1,0 +1,23 @@
+@import "./../styles/variables.scss";
+
+// General
+
+body {
+  background-color: #1d1d1d;
+  font-family: $secondaryFont;
+  color: #fafafa;
+  font-size: 1.25em;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+a {
+  color: #fafafa;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
