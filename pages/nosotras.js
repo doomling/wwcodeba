@@ -18,8 +18,18 @@ class Index extends React.Component {
           <NavBar />
         </Section>
         <Content title="Sobre nosotras">
-          <h1> ¿Quienes somos? </h1>
-          <p>Cosas</p>
+          <h1> ¿Quiénes somos? </h1>
+          <h2>Misión</h2>
+          <p>
+            Inspirar a mujeres a que crezcan y superen expectativas en sus
+            carreras en tecnología.
+          </p>
+          <h2>Visión</h2>
+          <p>
+            Un mundo en el que las mujeres tengan cantidad representativa en
+            puestos como Technical Executives, fundadoras, VCs y Software
+            Engineers.
+          </p>
         </Content>
       </div>
     );

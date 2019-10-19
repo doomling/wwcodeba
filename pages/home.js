@@ -18,17 +18,11 @@ class Index extends React.Component {
           <NavBar />
         </Section>
         <Content title="Bienvenidas">
-          <h1> ¿Quiénes somos? </h1>
-          <h2>Misión</h2>
+          <h1> Somos Women Who Code Buenos Aires </h1>
           <p>
-            Inspirar a mujeres a que crezcan y superen expectativas en sus
-            carreras en tecnología.
-          </p>
-          <h2>Visión</h2>
-          <p>
-            Un mundo en el que las mujeres tengan cantidad representativa en
-            puestos como Technical Executives, fundadoras, VCs y Software
-            Engineers.
+            Potenciamos carreras de mujeres en tecnología acercandolas a los
+            recursos necesarios para mejorar sus habilidades, generar
+            oportunidades de liderazgo y avanzar sus carreras.
           </p>
         </Content>
       </div>

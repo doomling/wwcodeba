@@ -19,7 +19,12 @@ class Index extends React.Component {
         </Section>
         <Content title="Próximos eventos">
           <h1> Próximos eventos </h1>
-          <p>Cosas</p>
+          <p>
+            Mantenete al tanto de nuestros Próximos eventos ingresando a{" "}
+            <a href="https://www.meetup.com/Women-Who-Code-Buenos-Aires/">
+              Meetup
+            </a>
+          </p>
         </Content>
       </div>
     );

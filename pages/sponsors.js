@@ -30,8 +30,8 @@ class Index extends React.Component {
             <h3>Company Sponsorship</h3>
             <p>
               Las empresas que estén interesadas en ser sponsors globales de la
-              comunidad pueden envíar su solicitud a
-              buenosaires@womenwhocode.com
+              comunidad pueden envíar su solicitud a{" "}
+              <b>buenosaires@womenwhocode.com</b>
             </p>
             <h3>Company Membership</h3>
             <p>
@@ -44,7 +44,9 @@ class Index extends React.Component {
             <h3>Job Posting</h3>
             <p>
               Ingresando a{" "}
-              <a href="http://womenwhocode.com/companies" target="_blank"></a>{" "}
+              <a href="http://womenwhocode.com/companies" target="_blank">
+                este sitio
+              </a>{" "}
               pueden acceder a postear sus búsquedas laborales activas que
               llegarán a toda la comunidad global de Women Who Code.
             </p>
@@ -52,7 +54,7 @@ class Index extends React.Component {
           <h2>Individuos</h2>
           <p>
             Si sos un individuo o una pequeña organización, podés realizar
-            donaciones a la network local ingresando a
+            donaciones a la network local ingresando a{" "}
             <a
               href="https://opencollective.com/wwcodebuenosaires"
               target="_blank"
