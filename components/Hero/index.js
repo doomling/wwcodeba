@@ -6,7 +6,9 @@ class Hero extends React.Component {
     return (
       <div className={style.column}>
         <div className={style.heroDescription}>
-          <span>{this.props.title}</span>
+          <div className={style.heroInner}>
+            <span>{this.props.title}</span>
+          </div>
         </div>
       </div>
     );

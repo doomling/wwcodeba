@@ -19,17 +19,15 @@ class Index extends React.Component {
         </Section>
         <Content title="Beneficios para participantes">
           <h1> Beneficios de unirse </h1>
-          <h2>Misión</h2>
+          <h2>Becas actuales</h2>
           <p>
-            Inspirar a mujeres a que crezcan y superen expectativas en sus
-            carreras en tecnología.
+            Para aplicar a los beneficios de la comunidad global, inscribite en{" "}
+            <a href="https://www.womenwhocode.com/buenosaires" target="_blank">
+              Women Who Code
+            </a>{" "}
+            e ingresá a <b>scholarship</b>.
           </p>
-          <h2>Visión</h2>
-          <p>
-            Un mundo en el que las mujeres tengan cantidad representativa en
-            puestos como Technical Executives, fundadoras, VCs y Software
-            Engineers.
-          </p>
+          <p>También podés mantenerte al día suscribiendote al newletter </p>
         </Content>
       </div>
     );
