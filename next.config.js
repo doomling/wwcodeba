@@ -1,9 +1,7 @@
 const withSass = require("@zeit/next-sass");
 
 module.exports = withSass({
-  publicRuntimeConfig: {
-    backend_url: process.env.NODE_ENV ? process.env.NODE_ENV : "dev"
-  },
+  publicRuntimeConfig: false,
   cssModules: true,
   cssLoaderOptions: {
     importLoaders: 1,
